@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 
 const TikTokSchema = mongoose.Schema({
     url: String,
-    likes: String,
-    shares: String,
-    messages: String,
+    likes: Number,
+    shares: Number,
+    messages: Number,
     channel: String,
     description: String,
     song: String
